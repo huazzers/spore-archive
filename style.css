@@ -58,7 +58,7 @@ main{
 .container{
   padding:5px 10px 5px 10px;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: space-around;
   align-items: stretch;
   align-content: stretch;

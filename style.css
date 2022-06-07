@@ -78,7 +78,7 @@ main{
   display:block;
   height:250px;
   margin:5px;
-  flex-grow:2;
+  flex-grow:3;
 }
 
 .box img{

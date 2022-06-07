@@ -1,0 +1,96 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:black;
+}
+
+h1,p{
+  color:white;
+  font-family:monospace;
+}
+
+h1{
+  background-color:black;
+  padding:10px 0 10px 0;
+  margin:0;
+  position:sticky;
+  top:0;
+  z-index:20;
+}
+
+p{
+  line-height: 1.35em;
+}
+
+br{
+  display:block;
+  content:"";
+  margin-top:1.15em;
+}
+
+main{
+  display:block;
+  margin-top:50px;
+  padding: 0;
+}
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+.left{
+  left:0;
+}
+.right{
+  right:0;
+}
+
+.container{
+  padding:5px 10px 5px 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: stretch;
+  z-index:-1;
+}
+
+.box{
+  display: block;
+  height:250px;
+  min-width:250px;
+  margin:5px;
+  flex-grow:1;
+  text-align: center;
+}
+
+.box.wide{
+  display:block;
+  height:250px;
+  margin:5px;
+  flex-grow:2;
+}
+
+.box img{
+  flex-shrink: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+model-viewer{
+  height:100%;
+  width:100%;
+outline: 0;
+margin:auto;
+--poster-color: transparent;
+}

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Savior1";
-  src: url('assets/fonts/Savior1.ttf') format('monospace'),
+  src: url('assets/fonts/Savior1.ttf') format('truetype'),
 }
 
 html, body {

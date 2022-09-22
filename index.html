@@ -2,74 +2,1061 @@
   <title>spore archive</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- Import model viewer component -->
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
 </head>
 <body>
-  <header>
-  </header>
+
   <main>
-    <div class="split left">
+    <div class="split">
       <h1>
-        /spore-archive
+        🌌/spore-archive
       </h1>
-      <div class="log">
-        <p>
-          10:40 AM 19/5/2022 random name generator for planet: Tandas.<br/>
-          12:18 PM 19/5/2022 first death: attacked by Booster.<br/>
-          12:55 PM 19/5/2022 new body part: acquired jet from killing Booster.<br/>
-          12:57 PM 19/5/2022 death: attacked by Squirty.<br/>
-          1:00 PM 19/5/2022 death: attacked by Punky.<br/>
-          1:07 PM 19/5/2022 evolved to Panga: removed flagella; added herbivore mouth, spikes and cilia.<br/>
-          1:09 PM 19/5/2022 death: attacked by Stabby.<br/>
-          1:11 PM 19/5/2022 new body part: omnivore proboscis.<br/>
-          1:12 PM 19/5/2022 new body part: poison from meteor rock.<br/>
-          1:13 PM 19/5/2022 death: attacked by Stabby.<br/>
-          1:15 PM 19/5/2022 new body part: acquired electric from killing Buzzy.<br/>
-          1:19 PM 19/5/2022 death: electrocuted via conduction from purusing carnivore who was electrocuted by Buzzy. <br/>
-          1:24 PM 19/5/2022 evolved to Shants: added buzz light.<br/>
-          1:26 PM 19/5/2022 death: attacked by Paa.<br/>
-          1:29 PM 19/5/2022 killed giant Megamouth via consecutive electrocutions.<br/>
-          1:32 PM 19/5/2022 death: attacked by Megamouth group (3).<br/>
-          1:35 PM 19/5/2022 new stage: achieved sentience; ready for Creature stage.<br/>
-          1:40 PM 19/5/2022 enter Creature stage.<br/>
-          4:24 PM 19/5/2022 evolved to Averantis; went on land.<br/>
-          4:27 PM 19/5/2022 new body part: acquired flesh from carcass.<br/>
-          4:32 PM 19/5/2022 new body part: acquired grumpeye from carcass.<br/>
-        </p>
-      </div>
+      <nav aria-label="log-entry-navigation" id="log">
+        <button aria-controls="readme" aria-expanded="false" class="menu-option" autofocus>
+          README.txt
+        </button>
+        <button aria-controls="log-1040A190522" aria-expanded="false" class="menu-option" >
+          10:40 AM 19/5/2022 random name generator for planet: Tandas; enter Cell stage.
+        </button>
+        <button aria-controls="log-1210P190522" aria-expanded="false" class="menu-option" >
+          12:10 PM 19/5/2022 level up; new body part: acquired Spike.
+        </button>
+        <button aria-controls="log-1216P190522" aria-expanded="false" class="menu-option" >
+          12:16 PM 19/5/2022 level up.
+        </button>
+        <button aria-controls="log-1218P190522" aria-expanded="false" class="menu-option" >
+          12:18 PM 19/5/2022 first death: attacked by Booster.
+        </button>
+        <button aria-controls="log-xxxxx190522-0" aria-expanded="false" class="menu-option" >
+          ??:?? ?? 19/5/2022 level up.
+        </button>
+        <button aria-controls="log-1255P190522" aria-expanded="false" class="menu-option" >
+          12:55 PM 19/5/2022 new body part: acquired Jet from killing Booster.
+        </button>
+        <button aria-controls="log-1257P190522" aria-expanded="false" class="menu-option" >
+          12:57 PM 19/5/2022 level up; death: attacked by Squirty.
+        </button>
+        <button aria-controls="log-100P190522" aria-expanded="false" class="menu-option" >
+          1:00 PM 19/5/2022 death: attacked by Punky.
+        </button>
+        <button aria-controls="log-107P190522" aria-expanded="false" class="menu-option" >
+          1:07 PM 19/5/2022 evolved to Panga.
+        </button>
+        <button aria-controls="log-108P190522" aria-expanded="false" class="menu-option" >
+          1:08 PM 19/5/2022 level up.
+        </button>
+        <button aria-controls="log-109P190522" aria-expanded="false" class="menu-option" >
+          1:09 PM 19/5/2022 death: attacked by Stabby.
+        </button>
+        <button aria-controls="log-111P190522" aria-expanded="false" class="menu-option" >
+          1:11 PM 19/5/2022 new body part: acquired Proboscis.
+        </button>
+        <button aria-controls="log-112P190522" aria-expanded="false" class="menu-option" >
+          1:12 PM 19/5/2022 new body part: acquired Poison from meteor rock.
+        </button>
+        <button aria-controls="log-113P190522" aria-expanded="false" class="menu-option" >
+          1:13 PM 19/5/2022 death: attacked by Stabby.
+        </button>
+        <button aria-controls="log-115P190522" aria-expanded="false" class="menu-option" >
+          1:15 PM 19/5/2022 new body part: acquired Electric from killing Buzzy.
+        </button>
+        <button aria-controls="log-117P190522" aria-expanded="false" class="menu-option" >
+          1:17 PM 19/5/2022 death: attacked by Jawhead; level up.
+        </button>
+        <button aria-controls="log-119P190522" aria-expanded="false" class="menu-option" >
+          1:19 PM 19/5/2022 death: electrocuted via conduction from purusing carnivore who was electrocuted by Buzzy.
+        </button>
+        <button aria-controls="log-124P190522" aria-expanded="false" class="menu-option" >
+          1:24 PM 19/5/2022 evolved to Shants.
+        </button>
+        <button aria-controls="log-125P190522" aria-expanded="false" class="menu-option" >
+          1:25 PM 19/5/2022 level up.
+        </button>
+        <button aria-controls="log-126P190522" aria-expanded="false" class="menu-option" >
+          1:26 PM 19/5/2022 death: attacked by Paa.
+        </button>
+        <button aria-controls="log-129P190522" aria-expanded="false" class="menu-option" >
+          1:29 PM 19/5/2022 killed giant Megamouth via consecutive electrocutions; level up.
+        </button>
+        <button aria-controls="log-132P190522" aria-expanded="false" class="menu-option" >
+          1:32 PM 19/5/2022 death: attacked by Megamouth group (3).
+        </button>
+        <button aria-controls="log-135P190522" aria-expanded="false" class="menu-option" >
+          1:35 PM 19/5/2022 new stage: ready for Creature stage.
+        </button>
+        <button aria-controls="log-140P190522" aria-expanded="false" class="menu-option" >
+          1:40 PM 19/5/2022 enter Creature stage.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          4:24 PM 19/5/2022 evolved to Averantis; went on land.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          4:27 PM 19/5/2022 new body part: acquired Flesh from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          4:32 PM 19/5/2022 new body part: acquired Grumpeye from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          ??:?? ?? 7/9/2022 witnessed hatching of baby Averantis.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          ??:?? ?? 7/9/2022 socialised with Bean, became friends; added Bean as pack member; pack member count: 1.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          ??:?? ?? 7/9/2022 socialised with Rogue Hayton, failed.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          ??:?? ?? 7/9/2022 evolved to Flops; learned spit, pose, dance.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          9:55 PM 8/9/2022 found stick, hit own head with stick.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          9:59 PM 8/9/2022 new body part: acquired Vermillips from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          10:01 PM 8/9/2022 socialised with Rogue Hayton, failed; Rogue Hayton killed pack member Bean; pack member count: 0.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          10:03 PM 8/9/2022 added Flops as pack member; pack member count: 1.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          10:06 PM 8/9/2022 death: attacked by Dewlib.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          10:09 PM 8/9/2022 socialised with Duckodle, failed.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          10:10 PM 8/9/2022 new body part: acquired ??? from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          10:13 PM 8/9/2022 new body part: acquired Eyelien from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          10:14 PM 8/9/2022 new body part: acquired Megachiraptora from caracass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          10:16 PM 8/9/2022 socialised with Lizzy, became friends.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          10:19 PM 8/9/2022 socialised with Rogue Scorgin; level up: can add 2 members to pack; added Rogue Scorgin as pack member; pack member count: 2.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          10:36 PM 8/9/2022 attacked Dewlib, took over nest by killing 4 Dewlibs.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          10:47 PM 8/9/2022 new body part: acquired Reapermantis from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          10:48 PM 8/9/2022 new body part: acquired spray bucket from carcass; new body part: acquired burly from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          10:54 PM 8/9/2022 attacked Maxtod, took over nest by killing 5 Maxtods, Flops (pack member) died in battle, pack member count: 1.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          10:59 PM 8/9/2022 new body part: acquired Gettineerful from carcass; new body part: acquired Amphibigrab from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:00 PM 8/9/2022 new body part: acquired Qopazcoatl from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:01 PM 8/9/2022 meteor shower.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:05 PM 8/9/2022 socialised with Rogue Hayton, failed.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:06 PM 8/9/2022 attacked Staggle, killed 2.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:08 PM 8/9/2022 socialised with Gorfindal, failed.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:11 PM 8/9/2022 new body part: acquired Lesser Tubercle from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:12 PM 8/9/2022 new body part: acquired Snuffle from carcass; new body part: acquired threepaw from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:14 PM 8/9/2022 socalised with Ape; new body part: acquired Amphibigrip from successfully socialising with Ape.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:18 PM 8/9/2022 became friends with Ape; level up: can add 3 members to pack.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:25 PM 8/9/2022 added Ape as pack member, pack member count: 2.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:40 PM 8/9/2022 new body part: acquired Narwhalicorn from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:41 PM 8/9/2022 socialised with Doltasaur; new body part: acquired Croak Masseur from successfully socialising with Doltasaur.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:43 PM 8/9/2022 witnessed 3 baby Doltasaur hatching from egg.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:48 PM 8/9/2022 socialised with Doltasaur, failed.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:50 PM 8/9/2022 socialised with Miss Feather, became friends.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:51 PM 8/9/2022 new body part: acquired Kitty from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:54 PM 8/9/2022 attacked Six Eyed Bob, took over nest by killing 6 Six Eyed Bobs, Ape (pack member) died in battle, pack member count: 1; new body part: acquired Cassoworry from killing Six Eyed Bob.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:57 PM 8/9/2022 new body part: acquired Seeodesic from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:58 PM 8/9/2022 new body part: acquired Phlegmthrower from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:58 PM 8/9/2022 new body part: acquired Fourpaw from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          11:59 PM 8/9/2022 new body part: acquired Stemma-addict from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          12:02 AM 9/9/2022 new body part: acquired Feelyfrond from caracass; new body part: acquired Boneye from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          12:03 AM 9/9/2022 new body part: acquired Cornutopia from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          12:04 AM 9/9/2022 new body part: acquired Marshcara from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          12:06 AM 9/9/2022 socialised with Doltasaur, 1 success attempt and 1 fail attempt.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          12:16 AM 9/9/2022 new body part: acquired Steatopiggy from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          12:20 AM 9/9/2022 socialised with Doltasaur, failed.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          12:21 AM 9/9/2022 added Alpha Miss Feather as pack member, pack member count: 2.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          12:23 AM 9/9/2022 Doltasaur threw stick at Rogue Scorgin and Alpha Miss Feather. Rogue Scorgin and Alpha Miss Feather responded with the Spore language equivalent of "what the fuck, bro."
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          12:26 AM 9/9/2022 socialised with Doltasaur, became friends; U.F.O. encounter.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          12:27 AM 9/9/2022 U.F.O. abducted Doltasaur.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          12:29 AM 9/9/2022 added Alpha Doltasaur as pack member, pack member count: 3; achievement Village Folks: "have three posse members from different species."
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          12:31 AM 9/9/2022 new body part: acquired Peduncledunk from carcass.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          12:33 AM 9/9/2022 removed Miss Feather from pack, pack member count: 2; socialised with Alpha Slamburg, failed.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          12:34 AM 9/9/2022 socialised with Rogue Hayton, became friends.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          12:39 AM 9/9/2022 added Rogue Hayton as pack member, pack member count: 3.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          12:42 AM 9/9/2022 socialised with Slamburg, failed.
+        </button>
+        <button aria-controls="log-null" aria-expanded="false" class="menu-option" >
+          12:48 AM 9/9/2022 socialised with Toomer, became friends; new stage: ready for Tribal stage.
+        </button>
+        <button aria-controls="readme" aria-expanded="false" class="menu-option" >
+          12:58 AM 9/9/2022 arrived at new nest.
+        </button>
+        <button onclick="backToTop()" aria-controls="log-null" class="menu-option">
+          ↑ BACK TO TOP.
+        </button>
+      </nav>
     </div>
-    <div class="split right">
-      <div class="container">
-        <div class="box wide">
-          <model-viewer alt="Spore Galaxy" src="assets/3d-models/sporeverse_textured.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/spore-galaxy.png" seamless-poster shadow-intensity="1" auto-rotate camera-orbit="179.7deg 33.34deg auto" camera-controls></model-viewer>
-        </div>
-        <div class="box wide">
-          <img src="assets/images/textmap0.jpg" alt="texture map of Panga's skin">
-        </div>
-        <div class="box">
-          <model-viewer alt="Panga model 1" src="assets/3d-models/cell_creature1_test_textured2.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/spore-galaxy.png" seamless-poster shadow-intensity="1" auto-rotate camera-controls></model-viewer>
-        </div>
-        <div class="box">
-          <model-viewer alt="Panga model 2" src="assets/3d-models/cell_creature1_test_textured3.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/spore-galaxy.png" seamless-poster shadow-intensity="1" auto-rotate camera-controls></model-viewer>
-        </div>
-        <div class="box">
-          <model-viewer alt="Panga model 3" src="assets/3d-models/cell_creature1_test_textured00.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/spore-galaxy.png" seamless-poster shadow-intensity="1" auto-rotate camera-controls camera-orbit="36.77deg 22.5deg auto"></model-viewer>
-        </div>
-        <div class="box wide">
-          <model-viewer alt="Cell stage environment model" src="assets/3d-models/cell_envrion1_test_textured3.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/spore-galaxy.png" seamless-poster shadow-intensity="1" auto-rotate camera-controls camera-orbit="36.77deg 22.5deg auto" exposure="3"></model-viewer>
-        </div>
-        <div class="box wide">
-          <img src="assets/images/textmap1.jpg" alt="texture map of Averantis' skin 1">
-        </div>
-        <div class="box wide">
-          <img src="assets/images/textmap2.jpg" alt="texture map of Averantis' skin 2">
-        </div>
-        <div class="box wide">
-          <model-viewer alt="Averantis pack at home nest" loading="eager" reveal="interaction" src="assets/3d-models/creature_creature1_test_textured2.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/sporeverse-poster.png" seamless-poster shadow-intensity="1" auto-rotate camera-controls camera-orbit="155deg 69.2deg auto" exposure="3"></model-viewer>
-        </div>
+    <div class="split" style="display:none;">
+      <div class="toolbar">
+        <button onclick="setColumnSize(1)" class="UI-option">← RETURN TO FILE DIRECTORY.</button>
       </div>
+      <section id="readme" aria-hidden="true">
+        <div class="textbox">
+          <h2>README.txt</h2>
+          <hr/>
+          <h3>
+            Welcome to <i>/spore-archive</i> !
+          </h3>
+          <p>
+            <i>/spore-archive</i> is an ongoing creative experiment which explores virtual taxidermy as a form of preserving digital artefacts at risk of going obsolete.
+          </p>
+          <p style="text-align:center;">*</p>
+          <h3>
+            HOW TO USE THE ARCHIVE:
+          </h3>
+          <p>
+            <strong>Click</strong> or <strong>Tab Select + hit [ENTER]</strong> on a log entry to view more details.
+          </p>
+          <p>
+            To navigate 3D model viewer, <strong>scroll</strong> to zoom; <strong>click + drag</strong> to rotate; <strong>hold [SHIFT] + mouse drag</strong> to pan. 
+          </p>
+          <p style="text-align:center;">*</p>
+          <h3>
+            TOOLS USED IN THIS PROJECT:
+          </h3>
+          <ul>
+            <li>
+              3D Zephyr (Free Edition);
+            </li>
+            <li>
+              Blender;
+            </li>
+            <li>
+              model-viewer;
+            </li>
+            <li>
+              OBS;
+            </li>
+            <li>
+              Adobe Premiere Pro CC;
+            </li>
+            <li>
+              Notepad<subscript>... until I irrevocably overwrote a day's worth of notes there;</subscript>
+            </li>
+            <li>
+              Notepad++;
+            </li>
+            <li>
+              Microsoft Excel;
+            </li>
+            <li>
+              Atom.
+            </li>
+          </ul>
+          <p style="text-align:center;">*</p>
+          <h3>
+            ACKNOWLEDGEMENTS:
+          </h3>
+          <p>
+            Thanks to Nick Crockett and Class of DESMA 160 - 3D Capture (Spring 2022) for their support and guidance in the early stages of this project; IRL @ The Museum of Human Achievement for the residency opportunity at Welcome to my Homepage.
+          </p>
+          <p style="text-align:center;">*</p>
+          <h3>
+            ABOUT THE DEVELOPER:
+          </h3>
+          <p>
+            <b>HUA CHAI</b> (they/he, @huazzers) is a gender-glitched experimental media artist who is inspired by how Internet phenomena interfaces with individual expression, community interactions, socio-political infrastructures, and identity formation. Hua makes playful interactive digital projects (dubbed as “games” for convenience’s sake) which act as a collective portrait of their observations and experiences.
+          </p>
+          <p>
+            Their works can be found on <a href="https://huachai-portfolio.carrd.co" target="_blank" rel="noreferrer noopener">huachai-portfolio.carrd.co</a>
+          </p>
+        </div>
+      </section>
+      <section id="log-1040A190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>10:40 AM 19/05/2022</h2>
+          <hr/>
+          <p>
+            random name generator for planet: Tandas; enter Cell stage.
+          </p>
+        </div>
+        <model-viewer id="sporeverse-homebg" src="assets/3d-models/sporeverse_v2.1_solidified.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/sporeverse_v2.1_poster.webp" camera-controls interaction-prompt="none" shadow-intensity="1" exposure="1" camera-orbit="-204.9deg 41.05deg auto" auto-rotate data-js-focus-visible>
+          <div class="progress-bar hide" slot="progress-bar">
+              <div class="update-bar"></div>
+          </div>
+          <button class="hotspot" slot="hotspot-1" data-position="3.06m 0.14m -2.40m" data-normal="0.553m 0.83m -0.04m" data-visibility-attribute="visible">
+            <div class="annotation">
+              <p>PLANET TANDAS</p>
+              <img src="assets/images/Start Settings.JPG" alt="Start settings of planet Tandas.">
+            </div>
+          </button>
+        </model-viewer>
+        <model-viewer id="sporecellenviron1" src="assets/3d-models/sporecellenviron1.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/sporecellenviron1.webp" camera-controls interaction-prompt="none" shadow-intensity="0" exposure="1.24" shadow-softness="0" camera-orbit="252.7deg 22.5deg auto" auto-rotate data-js-focus-visible>
+          <div class="progress-bar hide" slot="progress-bar">
+              <div class="update-bar"></div>
+          </div>
+        </model-viewer>
+      </section>
+      <section id="log-1210P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>12:10 PM 19/05/2022</h2>
+          <hr/>
+          <p>
+            level up; new body part: acquired Spike.
+          </p>
+        </div>
+        <model-viewer id="levelup-1210P190522" src="assets/3d-models/levelup1210P190522.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/levelup1210P190522.webp" camera-controls interaction-prompt="none" shadow-intensity="0" exposure="1" camera-orbit="-217.2deg 35.32deg auto" shadow-softness="0" auto-rotate data-js-focus-visible>
+          <div class="progress-bar hide" slot="progress-bar">
+              <div class="update-bar"></div>
+          </div>
+        </model-viewer>
+      </section>
+      <section id="log-1216P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>12:16 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            level up.
+          </p>
+        </div>
+        <model-viewer id="levelup-1216P190522" src="assets/3d-models/levelup1216P190522.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/levelup1216P190522.webp" camera-controls interaction-prompt="none" shadow-intensity="0" exposure="1" camera-orbit="38.34deg 47.79deg auto" shadow-softness="0" auto-rotate data-js-focus-visible>
+          <div class="progress-bar hide" slot="progress-bar">
+              <div class="update-bar"></div>
+          </div>
+        </model-viewer>
+      </section>
+      <section id="log-1218P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>12:18 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            first death: attacked by Booster.
+          </p>
+        </div>
+      </section>
+      <section id="log-xxxxx190522-0" aria-hidden="true">
+        <div class="textbox">
+          <div class="errorbox">
+            <p>
+              ⚠️Missing data: TIME
+            </p>
+          </div>
+          <h2>??:?? ?? 19/5/2022</h2>
+          <hr/>
+          <p>
+            level up.
+          </p>
+        </div>
+        <model-viewer id="levelup-1253P190522" src="assets/3d-models/levelup1253P190522.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/levelup1253P190522.webp" camera-controls interaction-prompt="none" shadow-intensity="0" exposure="1" camera-orbit="141.7deg 53.61deg auto" shadow-softness="0" auto-rotate data-js-focus-visible>
+          <div class="progress-bar hide" slot="progress-bar">
+              <div class="update-bar"></div>
+          </div>
+        </model-viewer>
+      </section>
+      <section id="log-1255P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>12:55 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            new body part: acquired Jet from killing Booster.
+          </p>
+        </div>
+      </section>
+      <section id="log-1257P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>12:57 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            level up; death: attacked by Squirty.
+          </p>
+        </div>
+        <model-viewer id="death-by-squirty" src="assets/3d-models/deathbysquirty.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/deathbysquirty.webp" camera-controls interaction-prompt="none" shadow-intensity="0" exposure="1" camera-orbit="-392.5deg 25.51deg auto" shadow-softness="0" auto-rotate data-js-focus-visible>
+          <div class="progress-bar hide" slot="progress-bar">
+              <div class="update-bar"></div>
+          </div>
+        </model-viewer>
+      </section>
+      <section id="log-100P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>1:00 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            death: attacked by Punky.
+          </p>
+        </div>
+      </section>
+      <section id="log-107P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>1:07 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            evolved to Panga.
+          </p>
+          <div class="errorbox">
+            <p>
+              ⚠️Photosensitive epilepsy warning: The following media contains flashing colours and strobe lighting.
+            </p>
+          </div>
+        </div>
+        <video class="videobox" controls loop>
+          <source src="assets/video-audio/pangatextmap.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+        <div class="textbox">
+          <p>Audio only:</p>
+          <audio controls loop>
+            <source src="assets/video-audio/pangatextmap.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </section>
+      <section id="log-108P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>1:08 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            level up.
+          </p>
+        </div>
+        <model-viewer id="levelup-104P190522" src="assets/3d-models/levelup104P190522.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/levelup104P190522.webp" camera-controls interaction-prompt="none" shadow-intensity="0" exposure="1" camera-orbit="-45.57deg 44.08deg auto" shadow-softness="0" auto-rotate data-js-focus-visible>
+          <div class="progress-bar hide" slot="progress-bar">
+              <div class="update-bar"></div>
+          </div>
+        </model-viewer>
+      </section>
+      <section id="log-109P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>1:09 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            death: attacked by Stabby.
+          </p>
+        </div>
+      </section>
+      <section id="log-111P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>1:11 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            new body part: acquired Proboscis.
+          </p>
+        </div>
+      </section>
+      <section id="log-112P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>1:12 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            new body part: acquired Poison from meteor rock.
+          </p>
+        </div>
+      </section>
+      <section id="log-113P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>1:13 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            death: attacked by Stabby.
+          </p>
+        </div>
+      </section>
+      <section id="log-115P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>1:15 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            new body part: acquired Electric from killing Buzzy.
+          </p>
+        </div>
+      </section>
+      <section id="log-117P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>1:17 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            death: attacked by Jawhead; level up.
+          </p>
+        </div>
+        <model-viewer id="levelup-117P190522" src="assets/3d-models/levelup117P190522.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/levelup117P190522.webp" camera-controls interaction-prompt="none" shadow-intensity="0" exposure="1" camera-orbit="196.3deg 56.12deg auto" shadow-softness="0" auto-rotate data-js-focus-visible>
+          <div class="progress-bar hide" slot="progress-bar">
+              <div class="update-bar"></div>
+          </div>
+        </model-viewer>
+      </section>
+      <section id="log-119P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>1:19 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            death: electrocuted via conduction from purusing carnivore who was electrocuted by Buzzy.
+          </p>
+        </div>
+      </section>
+      <section id="log-124P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>1:24 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            evolved to Shants.
+          </p>
+          <div class="errorbox">
+            <p>
+              ⚠️Photosensitive epilepsy warning: The following media contains flashing colours and strobe lighting.
+            </p>
+          </div>
+        </div>
+        <video class="videobox" controls loop>
+          <source src="assets/video-audio/shantstextmap.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+        <div class="textbox">
+          <p>Audio only:</p>
+          <audio controls loop>
+            <source src="assets/video-audio/shantstextmap.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <model-viewer id="cell-creature1-test-textured00" src="assets/3d-models/cell_creature1_test_textured00.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/cell_creature1_test_textured00.webp" camera-controls interaction-prompt="none" shadow-intensity="0" exposure="1.6" camera-orbit="-39.59deg 67.17deg auto" shadow-softness="0" auto-rotate data-js-focus-visible>
+          <div class="progress-bar hide" slot="progress-bar">
+              <div class="update-bar"></div>
+          </div>
+        </model-viewer>
+        <model-viewer id="cell-creature1-test2" src="assets/3d-models/cell_creature1_test2.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/cell_creature1_test2.webp" camera-controls interaction-prompt="none" shadow-intensity="0" exposure="1.01" camera-orbit="0deg 75deg auto" shadow-softness="0" auto-rotate data-js-focus-visible>
+          <div class="progress-bar hide" slot="progress-bar">
+              <div class="update-bar"></div>
+          </div>
+        </model-viewer>
+      </section>
+      <section id="log-125P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>1:25 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            level up.
+          </p>
+        </div>
+        <model-viewer id="levelup-125P190522" src="assets/3d-models/levelup125P190522.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/levelup125P190522.webp" camera-controls interaction-prompt="none" shadow-intensity="0" exposure="1" camera-orbit="120.2deg 57.42deg auto" shadow-softness="0" auto-rotate data-js-focus-visible>
+          <div class="progress-bar hide" slot="progress-bar">
+              <div class="update-bar"></div>
+          </div>
+        </model-viewer>
+      </section>
+      <section id="log-126P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>1:26 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            death: attacked by Paa.
+          </p>
+        </div>
+      </section>
+      <section id="log-129P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>1:17 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            killed giant Megamouth via consecutive electrocutions; level up.
+          </p>
+        </div>
+        <model-viewer id="kill-megamouth" src="assets/3d-models/killmegamouth.glb" ar ar-modes="webxr scene-viewer quick-look" poster="assets/images/killmegamouth.webp" camera-controls interaction-prompt="none" shadow-intensity="0" exposure="1.4" camera-orbit="149.6deg 22.5deg auto" shadow-softness="0" auto-rotate data-js-focus-visible>
+          <div class="progress-bar hide" slot="progress-bar">
+              <div class="update-bar"></div>
+          </div>
+        </model-viewer>
+      </section>
+      <section id="log-132P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>1:32 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            death: attacked by Megamouth group (3).
+          </p>
+        </div>
+      </section>
+      <section id="log-135P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>1:35 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            new stage: ready for Creature stage.
+          </p>
+        </div>
+      </section>
+      <section id="log-140P190522" aria-hidden="true">
+        <div class="textbox">
+          <h2>1:40 PM 19/5/2022</h2>
+          <hr/>
+          <p>
+            enter Creature stage.
+          </p>
+        </div>
+      </section>
+      <section id="log-null" aria-hidden="true">
+        <div class="textbox">
+          <h2>No data recorded.</h2>
+          <hr/>
+        </div>
+      </section>
+
     </div>
   </main>
+<script type ="text/javascript">
+var isMobile=false;
+var currColumnSize=1;
+const video = document.querySelectorAll("video");
+const audio = document.querySelectorAll("audio");
+
+window.onload = function Function(){
+    const mediaQuery = window.matchMedia('(min-width: 992px)');
+
+    mediaQuery.addListener(handleTabletChange);
+    handleTabletChange(mediaQuery);
+ 
+    function handleTabletChange(e) {
+      // Check if the media query is true
+      if (e.matches) {
+        isMobile=false;
+        setColumnSize(currColumnSize);
+        console.log("isNotMobile");
+      } else {
+        isMobile=true;
+        setColumnSize(currColumnSize);
+        console.log("isMobile");
+      }
+    }
+  }
+
+  var listItems = document.querySelectorAll('button.menu-option');
+  var selectedListItems = document.querySelectorAll('button.menu-option.selected');
+
+  const splitDivs=document.querySelectorAll('div.split');
+
+  document.addEventListener("DOMContentLoaded", main);
+
+  function main() {
+  listItems.forEach(function(item) {
+    item.addEventListener("mouseenter", (event)=>{
+      listItems.forEach(e=>{e.style.boxShadow="none";e.blur();});
+      if (!event.target.classList.contains("selected")){
+        event.target.style.boxShadow="0 0 0 2px blue";
+      }
+    });
+    item.addEventListener("focus", (event)=>{
+      listItems.forEach(e=>{e.style.boxShadow="none";});
+      if (!event.target.classList.contains("selected")){
+        event.target.style.boxShadow="0 0 0 2px blue";
+      }
+    });
+    item.addEventListener("mouseleave", (event)=>{
+      if (!event.target.classList.contains("selected")){
+        event.target.style.boxShadow="none";
+      }
+    });
+    item.addEventListener("focusout", (event)=>{
+      if (!event.target.classList.contains("selected")){
+        event.target.style.boxShadow="none";
+      }
+    });
+  });
+  }
+
+  for(var i = 0; i < listItems.length-1; i++){
+      listItems[i].addEventListener('click', function(event) {
+        if (!this.classList.contains('selected')){
+          customElements.get("model-viewer").modelCacheSize = 0;
+          video.forEach(e=>{
+            //check if video playing
+            if (e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2){
+              //if yes:
+              e.pause();
+              e.currentTime=0;
+            }
+          })
+          audio.forEach(e=>{
+            if (e.currentTime>0 && !e.paused){
+              e.pause();
+              e.currentTime=0;
+            }
+          })
+          if (selectedListItems.length===0){
+            setColumnSize(2);
+          } else {
+            clearSelectedList();
+          }
+            this.classList.toggle('selected');
+            this.focus();
+            this.setAttribute("aria-expanded",true);
+            document.getElementById(this.getAttribute('aria-controls')).style.display = 'inline-block';
+            document.getElementById(this.getAttribute('aria-controls')).setAttribute("aria-hidden",false);
+            document.querySelector('button.UI-option').setAttribute('aria-controls',this.getAttribute('aria-controls'));
+            selectedListItems = document.querySelectorAll('button.menu-option.selected');
+            //document.querySelector('button.UI-option').focus();
+        }
+      });
+  }
+
+  function clearSelectedList(){
+    selectedListItems.forEach(e=>{
+      document.getElementById(e.getAttribute('aria-controls')).style.display = 'none';
+      document.getElementById(e.getAttribute('aria-controls')).setAttribute("aria-hidden",true);
+      e.setAttribute("aria-expanded",false);
+      e.classList.remove('selected');
+      e.setAttribute("autofocus",false);
+    });
+  }
+
+  function setColumnSize(number){
+
+    switch (number){
+
+      case 1:
+      customElements.get("model-viewer").modelCacheSize = 0;
+      video.forEach(e=>{
+        //check if video playing
+        if (e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2){
+          //if yes:
+          e.pause();
+          e.currentTime=0;
+        }
+      })
+      audio.forEach(e=>{
+        if (e.currentTime>0 && !e.paused){
+          e.pause();
+          e.currentTime=0;
+        }
+      })
+        if (selectedListItems.length!==0){
+          selectedListItems[0].focus();
+          clearSelectedList();
+        }
+        selectedListItems = document.querySelectorAll('button.menu-option.selected');
+        splitDivs[1].style.display="none";
+        splitDivs[1].classList.remove('right');
+        splitDivs[0].classList.remove('left');
+        if (isMobile){
+          splitDivs[0].style.display="block";
+        } else {
+          for(let i=0;i<splitDivs.length;i++){
+            splitDivs[i].style.width="100%";
+          }
+        }
+        currColumnSize=1;
+        break;
+      case 2:
+        if (isMobile){
+          splitDivs[0].style.display="none";
+          for(let i=0;i<splitDivs.length;i++){
+            splitDivs[i].style.width="100%";
+          }
+        }else{
+          if (splitDivs[0].style.display==="none"){
+            splitDivs[0].style.display="block";
+          }
+          for(let i=0;i<splitDivs.length;i++){
+            splitDivs[i].style.width="50%";
+          }
+        }
+        splitDivs[0].classList.add('left');
+        splitDivs[1].classList.add('right');
+        splitDivs[1].style.display="block";
+        currColumnSize=2;
+        break;
+    }
+
+  }
+
+  function backToTop(){
+   listItems[0].scrollIntoView();
+   listItems[0].focus();
+  }
+
+  //------MODEL VIEWER SCRIPTS-------
+
+  //Function to control minimum scale of model viewer
+    window.addEventListener('DOMContentLoaded', () => {
+
+    // The static API must be queried after the element loads. Note that static properties affect all the <model-vieweer> elements on the page.
+    const ModelViewerStatic = customElements.get('model-viewer');
+    ModelViewerStatic.minimumRenderScale = 1;
+
+  }, {once: true});
+
+  //Script to update material properties
+
+  const sporeverseHomebg = document.querySelector("model-viewer#sporeverse-homebg");
+
+  sporeverseHomebg.addEventListener("load", (ev) => {
+
+    let material = sporeverseHomebg.model.materials[0];
+
+    // Defaults to gold
+    material.pbrMetallicRoughness.setBaseColorFactor([1, 1, 1]);
+
+    material.pbrMetallicRoughness.setMetallicFactor(1);
+    material.pbrMetallicRoughness.setRoughnessFactor(1);
+  });
+
+  const sporecellenvironOne = document.querySelector("model-viewer#sporecellenviron1");
+
+  sporecellenvironOne.addEventListener("load", (ev) => {
+
+    let material = sporecellenvironOne.model.materials[0];
+
+    //base parameters
+    material.pbrMetallicRoughness.setBaseColorFactor([1, 1, 1]);
+    //metallic roughness parameters
+    material.pbrMetallicRoughness.setMetallicFactor(0.75);
+    material.pbrMetallicRoughness.setRoughnessFactor(1);
+    //emissive parameters
+    material.setEmissiveFactor([0.047, 0.102, 0.216]);
+
+    //set double sided`
+    material.setDoubleSided(true);
+  });
+
+  const levelup1210P190522 = document.querySelector("model-viewer#levelup-1210P190522");
+
+  levelup1210P190522.addEventListener("load", (ev) => {
+
+    let material = levelup1210P190522.model.materials[0];
+
+    //base parameters
+    material.pbrMetallicRoughness.setBaseColorFactor([0.682, 0.867, 1]);
+    //metallic roughness parameters
+    material.pbrMetallicRoughness.setMetallicFactor(1);
+    material.pbrMetallicRoughness.setRoughnessFactor(0.8);
+    //emissive parameters
+    material.setEmissiveFactor([0.039, 0.055, 0.118]);
+  });
+
+  const levelup1216P190522 = document.querySelector("model-viewer#levelup-1216P190522");
+
+  levelup1216P190522.addEventListener("load", (ev) => {
+
+    let material = levelup1216P190522.model.materials[0];
+
+    //base parameters
+    material.pbrMetallicRoughness.setBaseColorFactor([0.463, 0.980, 1]);
+    //metallic roughness parameters
+    material.pbrMetallicRoughness.setMetallicFactor(0.2);
+    material.pbrMetallicRoughness.setRoughnessFactor(0);
+    //emissive parameters
+    material.setEmissiveFactor([0, 0.035, 0.055]);
+  });
+
+  const levelup1253P190522 = document.querySelector("model-viewer#levelup-1253P190522");
+
+  levelup1253P190522.addEventListener("load", (ev) => {
+
+    let material = levelup1253P190522.model.materials[0];
+
+    //base parameters
+    material.pbrMetallicRoughness.setBaseColorFactor([0.816, 0.859, 1]);
+    //metallic roughness parameters
+    material.pbrMetallicRoughness.setMetallicFactor(0.5);
+    material.pbrMetallicRoughness.setRoughnessFactor(0.8);
+    //emissive parameters
+    material.setEmissiveFactor([0, 0, 0]);
+  });
+
+  const deathBySquirty = document.querySelector("model-viewer#death-by-squirty");
+
+  deathBySquirty.addEventListener("load", (ev) => {
+
+    let material = deathBySquirty.model.materials[0];
+
+    //base parameters
+    material.pbrMetallicRoughness.setBaseColorFactor([0.678, 0.784, 1]);
+    //metallic roughness parameters
+    material.pbrMetallicRoughness.setMetallicFactor(0);
+    material.pbrMetallicRoughness.setRoughnessFactor(0.15);
+    //emissive parameters
+    material.setEmissiveFactor([0, 0.024, 0.051]);
+  });
+
+  const levelup104P190522 = document.querySelector("model-viewer#levelup-104P190522");
+
+  levelup104P190522.addEventListener("load", (ev) => {
+
+    let material = levelup104P190522.model.materials[0];
+
+    //base parameters
+    material.pbrMetallicRoughness.setBaseColorFactor([1, 0.643, 0.980]);
+    //metallic roughness parameters
+    material.pbrMetallicRoughness.setMetallicFactor(0);
+    material.pbrMetallicRoughness.setRoughnessFactor(0.15);
+    //emissive parameters
+    material.setEmissiveFactor([0, 0.063, 0.012]);
+  });
+
+  const levelup117P190522 = document.querySelector("model-viewer#levelup-117P190522");
+
+  levelup117P190522.addEventListener("load", (ev) => {
+
+    let material = levelup117P190522.model.materials[0];
+
+    //base parameters
+    material.pbrMetallicRoughness.setBaseColorFactor([0.475, 1, 0.831]);
+    //metallic roughness parameters
+    material.pbrMetallicRoughness.setMetallicFactor(0);
+    material.pbrMetallicRoughness.setRoughnessFactor(0.2);
+    //emissive parameters
+    material.setEmissiveFactor([0.016, 0.082, 0]);
+  });
+
+  const cellCreature1testtextured00 = document.querySelector("model-viewer#cell-creature1-test-textured00");
+
+  cellCreature1testtextured00.addEventListener("load", ()=>{
+
+    let material = cellCreature1testtextured00.model.materials[0];
+
+    //base parameters
+    material.pbrMetallicRoughness.setBaseColorFactor([1, 0.996, 0.729]);
+    //metallic roughness parameters
+    material.pbrMetallicRoughness.setMetallicFactor(0.5);
+    material.pbrMetallicRoughness.setRoughnessFactor(0.1);
+    //emissive parameters
+    material.setEmissiveFactor([0.216, 0.063, 0]);
+    //occlusion paramters
+
+    //set double sided`
+    material.setDoubleSided(true);
+  });
+
+  const cellCreature1test2 = document.querySelector("model-viewer#cell-creature1-test2");
+
+  cellCreature1test2.addEventListener("load", ()=>{
+
+    let material = cellCreature1test2.model.materials[0];
+
+    //base parameters
+    material.pbrMetallicRoughness.setBaseColorFactor([1, 0.50, 0]);
+    //metallic roughness parameters
+    material.pbrMetallicRoughness.setMetallicFactor(0.25);
+    material.pbrMetallicRoughness.setRoughnessFactor(0);
+    //emissive parameters
+    material.setEmissiveFactor([0.12, 0, 0]);
+    //occlusion paramters
+
+    //set double sided`
+    material.setDoubleSided(true);
+  });
+
+  const levelup125P190522 = document.querySelector("model-viewer#levelup-125P190522");
+
+  levelup125P190522.addEventListener("load", (ev) => {
+
+    let material = levelup125P190522.model.materials[0];
+
+    //base parameters
+    material.pbrMetallicRoughness.setBaseColorFactor([1, 0.906, 0.682]);
+    //metallic roughness parameters
+    material.pbrMetallicRoughness.setMetallicFactor(0.2);
+    material.pbrMetallicRoughness.setRoughnessFactor(0.15);
+    //emissive parameters
+    material.setEmissiveFactor([0.055, 0.047, 0.024]);
+  });
+
+  const killMegamouth = document.querySelector("model-viewer#kill-megamouth");
+
+  killMegamouth.addEventListener("load", (ev) => {
+
+    let material = killMegamouth.model.materials[0];
+
+    //base parameters
+    material.pbrMetallicRoughness.setBaseColorFactor([0.714, 1, 0.831]);
+    //metallic roughness parameters
+    material.pbrMetallicRoughness.setMetallicFactor(0.25);
+    material.pbrMetallicRoughness.setRoughnessFactor(0);
+    //emissive parameters
+    material.setEmissiveFactor([0.055, 0, 0]);
+  });
+
+</script>
 </body></html>

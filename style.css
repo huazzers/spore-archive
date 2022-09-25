@@ -1,7 +1,13 @@
 @font-face {
-  font-family: "Savior1";
-  src: url('assets/fonts/Savior1.ttf') format('truetype'),
+    font-family: 'Savior1';
+    src: url('assets/fonts/Savior1.eot');
+    src: url('assets/fonts/Savior1.otf') format('opentype'),
+        url('assets/fonts/Savior1.woff') format('woff'),
+        url('assets/fonts/Savior1.svg#Savior1') format('svg');
+    font-style: normal;
+    font-display: swap;
 }
+
 
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
@@ -147,8 +153,8 @@ audio{
 }
 
 .toolbar{
-  width:100%;
-  padding:35px 25px 0 25px;
+  width:calc(100vw - 65px);
+  margin:35px 25px 0 25px;
 }
 
 button.UI-option{

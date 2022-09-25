@@ -1585,24 +1585,6 @@ window.onload = function Function(){
     material.pbrMetallicRoughness.setRoughnessFactor(1);
   });
 
-  const sporecellenvironOne = document.querySelector("model-viewer#sporecellenviron1");
-
-  sporecellenvironOne.addEventListener("load", (ev) => {
-
-    let material = sporecellenvironOne.model.materials[0];
-
-    //base parameters
-    material.pbrMetallicRoughness.setBaseColorFactor([1, 1, 1]);
-    //metallic roughness parameters
-    material.pbrMetallicRoughness.setMetallicFactor(0.75);
-    material.pbrMetallicRoughness.setRoughnessFactor(1);
-    //emissive parameters
-    material.setEmissiveFactor([0.047, 0.102, 0.216]);
-
-    //set double sided`
-    material.setDoubleSided(true);
-  });
-
   const levelup1210P190522 = document.querySelector("model-viewer#levelup-1210P190522");
 
   levelup1210P190522.addEventListener("load", (ev) => {
@@ -1691,25 +1673,6 @@ window.onload = function Function(){
     material.pbrMetallicRoughness.setRoughnessFactor(0.2);
     //emissive parameters
     material.setEmissiveFactor([0.016, 0.082, 0]);
-  });
-
-  const cellCreature1testtextured00 = document.querySelector("model-viewer#cell-creature1-test-textured00");
-
-  cellCreature1testtextured00.addEventListener("load", ()=>{
-
-    let material = cellCreature1testtextured00.model.materials[0];
-
-    //base parameters
-    material.pbrMetallicRoughness.setBaseColorFactor([1, 0.996, 0.729]);
-    //metallic roughness parameters
-    material.pbrMetallicRoughness.setMetallicFactor(0.5);
-    material.pbrMetallicRoughness.setRoughnessFactor(0.1);
-    //emissive parameters
-    material.setEmissiveFactor([0.216, 0.063, 0]);
-    //occlusion paramters
-
-    //set double sided`
-    material.setDoubleSided(true);
   });
 
   const cellCreature1test2 = document.querySelector("model-viewer#cell-creature1-test2");
